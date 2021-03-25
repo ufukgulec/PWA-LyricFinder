@@ -1,0 +1,128 @@
+﻿.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding: 10px;
+    padding-bottom: 50px;
+    background-color: #201a31;
+}
+
+
+.mobile-bottom-nav {
+    opacity: 0.8;
+    color: white;
+    border-radius: 50px 50px;
+    position: fixed;
+    bottom: 20px;
+    left: 50px;
+    right: 50px;
+    z-index: 1000;
+    will-change: transform;
+    transform: translateZ(0);
+    display: flex;
+    height: 50px;
+    box-shadow: 0 -2px 5px -2px #333;
+    background-color: #5a02b9;
+}
+
+    .mobile-bottom-nav:hover {
+        opacity: 1;
+    }
+
+.mobile-bottom-nav__item {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobile-bottom-nav__item--active {
+    color: #fcce07;
+}
+
+.mobile-bottom-nav__item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+    .form-control:focus {
+        background: transparent;
+        border-radius: 50px;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+
+.btn-outline-primary {
+    border-color: #5a02b9;
+    color: white;
+    border-radius: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+    .btn-outline-primary:hover {
+        border-color: white;
+        background-color: #5a02b9;
+        color: #fcce07;
+        border-radius: 50px;
+        width: 100%;
+    }
