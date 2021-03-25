@@ -1,6 +1,6 @@
 # LyricFinder
 Asp.net Core5 ile oluşturduğum Progressive Web Apps: 
-Şarkı adını ve şarkıcıyı yazınca şarkının sözleri geliyor. 
+Şarkı adını ve şarkıcıyı yazınca şarkının sözleri geliyor.<br/>
 Kullandığım Nugetler: AngleSharp ve AspNetCore.PWA
 
 <img src="https://i.hizliresim.com/HIpiGo.png">
